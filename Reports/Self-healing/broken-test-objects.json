@@ -2,33 +2,13 @@
   "brokenTestObjects": [
     {
       "approved": true,
-      "testObjectId": "Object Repository/cura_OR/Page_CURA Healthcare Service/h2_Make Appointment",
-      "brokenLocator": "//section[@id\u003d\u0027appointment\u0027]/div/div/div/h2",
+      "testObjectId": "Object Repository/CURA_page_OR/TC_Cura_005/button_Book Appointment",
+      "brokenLocator": "//button[@id\u003d\u0027btn-book-appointment\u0027]",
       "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//h2",
+      "proposedLocator": "//button",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/cura_OR/Page_CURA Healthcare Service/h2_Make Appointment_position.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/TL_cura_or/Page_CURA Healthcare Service/h2_Make Appointment",
-      "brokenLocator": "//section[@id\u003d\u0027appointment\u0027]/div/div/div/h2",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//h2",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/TL_cura_or/Page_CURA Healthcare Service/h2_Make Appointment_position.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/TL_cura_or/Page_CURA Healthcare Service/h2_Make Appointment",
-      "brokenLocator": "//section[@id\u003d\u0027appointment\u0027]/div/div/div/h2",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//*[(text() \u003d \u0027Make Appointment\u0027 or . \u003d \u0027Make Appointment\u0027)]",
-      "proposedLocatorMethod": "BASIC",
-      "recoveryMethod": "BASIC",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/TL_cura_or/Page_CURA Healthcare Service/h2_Make Appointment_BASIC.png"
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CURA_page_OR/TC_Cura_005/button_Book Appointment_position.png"
     }
   ]
 }
